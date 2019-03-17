@@ -1,0 +1,10 @@
+tricks:
+  - watchdog.tricks.ShellCommandTrick:
+      patterns: ["*.py", "*.js"]
+      shell_command: python -m trim21.cloud.client monitor
+
+  - watchdog.tricks.ShellCommandTrick:
+      patterns: ["*.py", "*.js"]
+      shell_command: python -m pylint --rcfile=.pylintrc trim21
+      wait_for_process: true
+      drop_during_process: true

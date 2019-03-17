@@ -1,0 +1,18 @@
+*.py[cod]
+*.db
+.idea
+.vscode
+dist/
+build/
+.eggs
+.python-version
+.DS_Store
+*debug.sh
+env
+tmp/
+
+# coverage
+.coverage
+htmlcov
+.xml
+*.egg-info

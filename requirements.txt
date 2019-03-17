@@ -1,0 +1,12 @@
+aiohttp==3.5.4
+pytz==2018.9
+aiofiles==0.4.0
+python-dateutil==2.8.0
+motor==2.0.0
+aiohttp-devtools==0.12
+aiohttp-jinja2==1.1.0
+aioredis==1.2.0
+aiohttp-session==2.7.0
+aiohttp-security==0.4.0
+python-validator>=0.0.7, <1.0.0
+pymongo==3.7.2
